@@ -1,8 +1,22 @@
+import { ContenedorCard } from "contenedorCard";
 
 
+export function Main() {
+    return (
+        <>
+            {/* Navbar */}
+            {/* fin Navbar */}
+            <div class="container">
+                {/* Jumbotron  */}
 
-export function Contenedor(){
-    return "oli";
+                {/* Fin Jumbotron */}
+                <ContenedorCard />
+                <ContenedorCard />
+            </div>
+            {/* Footer */}
+            {/* Fin Footer */}
+        </>
+    )
 }
 
 
