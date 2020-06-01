@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { Contenedor } from "./components/contenedor";
+import { Body } from "./body"
 
 
 
@@ -9,4 +9,5 @@ import { Contenedor } from "./components/contenedor";
 
 
 
-ReactDOM.render(<Contenedor />, document.querySelector("#root"));
+
+ReactDOM.render(<Body />, document.querySelector("#root"));
